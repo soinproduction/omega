@@ -1,0 +1,86 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+@mixin decor-item {
+  content: "";
+  position: absolute;
+
+  display: block;
+}
+
+@mixin fieldset-reset {
+  margin: 0;
+
+  border: none;
+}
+
+
+@mixin wrapper {
+  min-width: $mobile-width;
+  margin: 0 auto;
+  padding-right: $mobile-padding;
+  padding-left: $mobile-padding;
+
+  @media (min-width: $tablet-width) {
+    padding-right: $tablet-padding;
+    padding-left: $tablet-padding;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: $desktop-width;
+    padding-right: $desktop-padding;
+    padding-left: $desktop-padding;
+  }
+}
+
+@mixin font($f-weight, $f-size, $l-height, $f-family, $color) {
+  font-weight: $f-weight;
+  font-size: $f-size;
+  line-height: $l-height;
+  font-family: $f-family;
+  color: $color;
+}
+
+@mixin outline($color) {
+  outline: 1px solid $color;
+}
+
+@mixin header-decor {
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 0;
+    z-index: -1;
+
+    display: block;
+    width: 100vw;
+    height: 3px;
+
+    background-color: #68b738;
+  }
+
+  @media (min-width: $tablet-width) {
+    &::before {
+      top: 22px;
+    }
+
+    &::after {
+      top: 22px;
+      right: 0;
+      left: auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &::before,
+    &::after {
+      top: 21px;
+    }
+  }
+}
