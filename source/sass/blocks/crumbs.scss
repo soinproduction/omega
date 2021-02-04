@@ -1,0 +1,21 @@
+.crumbs-list {
+  display: flex;
+  .crumbs-list__item + .crumbs-list__item {
+    padding-left: 30px;
+  }
+  .crumbs-list__item {
+    a, span {
+      color: rgba(21, 27, 30, 0.5);
+      position: relative;
+    }
+    a {
+      &::before {
+        position: absolute;
+        content: "/";
+        color: rgba(21, 27, 30, 0.5);
+        font-size: 16px;
+        right: -17px;
+      }
+    }
+  }
+}

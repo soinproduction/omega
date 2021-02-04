@@ -1,6 +1,6 @@
 /* -- Fonts --*/
-$font-family: "Oswald", "Arial", sans-serif;
-$font-family--alt: "Arial", "Helvetica", sans-serif;
+$font-family: "Open Sans", sans-serif;
+$font-family--alt: "Montserrat", sans-serif;
 /* -- Colors --*/
 /* -- Headers --*/
 $color-header: #111111;
@@ -23,13 +23,13 @@ $color-menu-alt--hover: rgba(255, 255, 255, 0.6);
 $color-menu-alt--active: rgba(255, 255, 255, 0.3);
 
 /* -- Backgrounds --*/
-$color-bg--light: #ffffff;
-$color-bg--dark: #f2f2f2;
-$color-bg: #68b738;
+$color-bg--dark:#373539;
+$color-bg--light: #fff;
+$color-bg: #60C372;
 $color-bg--image: #64a83b;
 
 /* -- Buttons --*/
-$color-btn: #68b738;
+$color-basket: #60C372;
 $color-btn-text: #ffffff;
 $color-btn--hover: #5eaa2f;
 $color-btn-text--active: rgba(255, 255, 255, 0.3);

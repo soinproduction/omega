@@ -1,0 +1,41 @@
+.categories-sale {
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories__item {
+  max-width: 500px;
+  width: 100%;
+  min-height: 567px;
+  padding:0 60px 35px 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(../img/categories.jpg);
+  &:nth-child(2){
+    background-image: url(../img/categories2.jpg);
+  }
+  &:nth-child(3){
+    background-image: url(../img/categories3.jpg);
+  }
+}
+
+.categories__title {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  font-family: $font-family--alt;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.categories__descr {
+  min-height: 88px;
+  line-height: 22px;
+  color: #fff;
+}

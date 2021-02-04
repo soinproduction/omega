@@ -1,0 +1,24 @@
+.top-sale {
+  padding: 25px 0 44px;
+  background-color: #f5f5f5;
+  position: relative;
+  &::after {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 38%;
+    content: '';
+    background-color: #fff;
+  }
+}
+
+.top-sale__title {
+  z-index: 10;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card-slider {
+  position: relative;
+  z-index: 10;
+}
