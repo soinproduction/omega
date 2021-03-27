@@ -1,3 +1,8 @@
+
+.mobile__menu-box {
+  display: none;
+}
+
 header {
   background: #1C1A1F;
 }
@@ -110,11 +115,14 @@ header {
     align-items: center;
     justify-content: center;
   }
-  span {
+  .basket__value {
     font-family: $font-family;
     color: $color-text--rev;
     font-size: 16px;
     font-weight: 400;
+  }
+  .mob-price {
+    display: none;
   }
 }
 
@@ -145,7 +153,7 @@ header {
 
 .header-search__form {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   .header-search__input {
     width: 100%;
     height: 55px;
@@ -161,6 +169,7 @@ header {
     &::placeholder {
       color: rgba(28, 26, 31, 0.5);
     }
+
   }
   button {
     position: absolute;
@@ -219,7 +228,7 @@ header {
 .header-searh__btn {
   width: 100%;
   border-radius: 0 0 3px 3px;
-  background-color: $color-bg;
+  background-color: transparent;
 }
 
 .count__wrapper {
@@ -227,11 +236,13 @@ header {
 }
 
 .header__slide {
-  background-image: url(../img/header-slide.png);
   height: 520px;
   width: 100%;
   margin: 0 5px;
   .header__slide_wrapper {
+    background-image: url(../img/header-slide.png);
+    background-size: cover;
+    width: 100%;
     padding: 43px;
     border-radius: 3px;
     display: flex;
@@ -359,6 +370,107 @@ header {
     margin-right: -5px;
   }
 }
+
+.header-bottom--mod {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.header-searh--mod {
+  padding: 24px 22px;
+}
+
+.header-bottom__mod {
+  width: 24%;
+  position: relative;
+  &:last-child {
+    width: 70%;
+  }
+}
+
+.my-order__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  font-family: $font-family;
+  color: $color-text--rev;
+  margin-bottom: 30px;
+}
+
+.my-order__text {
+  font-size: 16px;
+  line-height: 130%;
+  color: $color-text--rev;
+}
+
+.header-mod__accordion {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+.search-absolute {
+
+  position: absolute;
+  width: 200%;
+  z-index: 55;
+  top: 0;
+  background-color: #fff;
+
+  input {
+    width: 100%;
+    border-bottom: 1px solid #fafafa !important;
+  }
+  button {
+    top: 28px;
+  }
+}
+
+.search-window {
+  overflow-y: scroll;
+  height: 430px;
+  width: 99%;
+  padding-right: 10px;
+  &::-webkit-scrollbar {
+    width: 3px;
+    height: 100%;
+    background-color: #c4c4c4;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #808080;
+    border-radius: 5px;
+  }
+}
+
+.search-absolute__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #808080;
+  padding: 0 10px;
+}
+
+.absolute-img {
+  width: 25%;
+}
+
+.absolute-text {
+  width: 50%;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1C1A1F;
+}
+
+.absolute-value {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #56B267;
+}
+
 
 
 

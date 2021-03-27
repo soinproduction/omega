@@ -1,0 +1,165 @@
+.contacts-row__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+
+
+.contacts-row__item {
+  margin-bottom: 5px;
+  &:last-child {
+    width: 70%;
+  }
+  &--mod {
+    display: flex;
+    justify-content: space-between;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  a {
+    display: flex;
+    justify-content: space-between;
+    // line-height: 22px;
+  }
+}
+
+.contacts-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contacts-row__text {
+  line-height: 22px;
+}
+
+.contacts-row__item1:nth-child(2n) {
+  margin-bottom: 10px;
+}
+
+.maps-btn {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  background: #60C372;
+  border-radius: 3px;
+  height: 57px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  width: 100%;
+  margin-top: 150px;
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.maps-sec {
+   padding: 60px 0;
+   background-image: url(../img/map.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.maps-wrapper {
+  width: 33%;
+  margin-left: auto;
+  background-color: #fff;
+  padding: 50px 40px 50px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+.maps-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.maps-form__title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 120%;
+  font-family:$font-family--alt;
+  margin-bottom: 25px;
+}
+
+.maps-form {
+  margin-bottom: 37px;
+  input {
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 0 10px;
+    height: 55px;
+    margin-bottom: 15px;
+    outline: none;
+  }
+  textarea {
+    resize: none;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+  }
+  textarea,input {
+    &::placeholder {
+      color: rgba(28, 26, 31, 0.5);
+    }
+  }
+}
+
+.check__form {
+  margin-bottom: 20px;
+  .fliter__checkbox>span::before {
+    border-radius: 3px;
+  }
+}
+
+.check-link {
+  color: #60C372;
+  margin-left: 5px;
+
+}
+
+.form-map__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 57px;
+  color: #fff;
+  border-radius: 3px;
+  width: 100%;
+  background: #60C372;
+  &--header {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+}
+
+
+.contacts-row__item1 {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.viber__link , .whatsapp__link {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+
+.viber__link {
+  right: -25px;
+  top: -38%;
+}
+
+
+.whatsapp__link {
+  right: -46px;
+  top: -41%;
+}

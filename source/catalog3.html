@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="Description" content="Omega">
+  <title>HomePage</title>
+  <script src="js/picturefill.min.js" async="async"></script>
+
+  <link rel="preload" href="fonts/Montserrat-ExtraBold.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/OpenSans-Bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body-index">
+  <div style="display: none">
+    <include src="build/img/sprite/sprite.svg"></include>
+  </div>
+  <header>
+    <div class="container">
+      <div class="mobile__menu-box">
+        <div class="hamburger__wrapp">
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="mobile__menu">
+          <div class="mob-wrapper">
+            <div class="hamburger__wrapp">
+              <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="header-top">
+              <a href="#" class="header-top__logo header-logo">
+                <img src="img/header__logo.svg" alt="логотип" class="header-logo__img">
+              </a>
+              <div class="header-top__right">
+                <nav class="nav">
+                  <ul class="nav__list">
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">Акции</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">Гарантия</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">Доставка</a>
+                    </li>
+                    <li class="nav__item">
+                      <a class="nav__link" href="#">Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div class="right-wrapper">
+                  <div class="header-top__phone phone">
+                    <a href="tel:37322766955" class="phone__link">(+373) 22 766 955</a>
+                    <a href="tel:37369259600" class="phone__link">(+373) 69 259 600</a>
+                  </div>
+                  <div class="header-top__basket basket">
+                    <a href="#" class="basket__link">
+                      <svg width="25" height="24">
+                        <use xlink:href="#basket"></use>
+                      </svg>
+                    </a>
+                    <p class="basket__value">
+                      <span class="desk-price">4 980  MDL</span>
+                      <span class="mob-price">2</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header-searh">
+              <form class="header-search__form" action="">
+                <input class="header-search__input" type="text" placeholder="Поиск по сайту" />
+                <button>
+                  <svg width="21" height="21">
+                    <use xlink:href="#search"></use>
+                  </svg>
+                </button>
+              </form>
+              <ul class="header-searh__list">
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Сейфы</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Офисная металлическая мебель</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Медицинская металлическая мебель</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Цилиндровые механизмы</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Замки для дверей</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Ручки и накладки для дверей</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Броненакладки и защитная фурнитура</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Аксессуары для дверей</a>
+                </li>
+                <li class="searh-list_item">
+                  <a class="searh-list_link" href="#">Входные двери</a>
+                </li>
+              </ul>
+            </div>
+            <div class="right-wrapper right-wrapper1">
+              <div class="header-top__phone phone">
+                <a href="tel:37322766955" class="phone__link">(+373) 22 766 955</a>
+                <a href="tel:37369259600" class="phone__link">(+373) 69 259 600</a>
+              </div>
+              <div class="header-top__lang">
+                <div class="accordion lang">
+                  <button class="lang__btn">
+                    <svg width="22" height="22">
+                      <use xlink:href="#lang"></use>
+                    </svg>
+                      <span>Рус</span>
+                      <svg class="arrow" width="14" height="8">
+                        <use xlink:href="#arrow-down"></use>
+                      </svg>
+                  </button>
+                </div>
+                <div class="panel lang-list">
+                  <div class="panel__wrapp">
+                    <p>Русс</p>
+                    <p>Англ</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-list__mobile">
+              <ul class="footer__nav">
+                <li class="footer__item"><a href="#">
+                  Гарантия
+                </a></li>
+                <li class="footer__item"><a href="#">
+                  Доставка
+                </a></li>
+              </ul>
+              <ul class="footer__nav">
+                <li class="footer__item"><a href="#">
+                  Гарантия
+                </a></li>
+                <li class="footer__item"><a href="#">
+                  Доставка
+                </a></li>
+                <li class="footer__item"><a href="#">
+                  Контакты
+                </a></li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <a href="#" class="footer-social__link">
+                <svg class="footer__svg" width="16" height="16">
+                  <use xlink:href="#insta"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg width="16" height="13">
+                  <use xlink:href="#twiter"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg width="16" height="15">
+                  <use xlink:href="#linked"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="header-top">
+          <a href="#" class="header-top__logo header-logo">
+            <img src="img/header__logo.svg" alt="логотип" class="header-logo__img">
+          </a>
+          <div class="header-top__right">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Акции</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Гарантия</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Доставка</a>
+                </li>
+                <li class="nav__item">
+                  <a class="nav__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="right-wrapper">
+              <div class="header-top__phone phone">
+                <a href="tel:37322766955" class="phone__link">(+373) 22 766 955</a>
+                <a href="tel:37369259600" class="phone__link">(+373) 69 259 600</a>
+              </div>
+              <div class="header-top__lang">
+                <div class="accordion lang">
+                  <button class="lang__btn">
+                    <svg width="22" height="22">
+                      <use xlink:href="#lang"></use>
+                    </svg>
+                      <span>Рус</span>
+                      <svg class="arrow" width="14" height="8">
+                        <use xlink:href="#arrow-down"></use>
+                      </svg>
+                  </button>
+                </div>
+                <div class="panel lang-list">
+                  <div class="panel__wrapp">
+                    <p>Русс</p>
+                    <p>Англ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="header-top__basket basket">
+                <a href="#" class="basket__link">
+                  <svg width="25" height="24">
+                    <use xlink:href="#basket"></use>
+                  </svg>
+                </a>
+                <p class="basket__value">
+                  <span class="desk-price">4 980  MDL</span>
+                  <span class="mob-price">2</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom--mod">
+          <div class="header-bottom__mod">
+            <div class="header-search_wrapp">
+              <div class="header-searh--mod">
+                <form class="header-search__form">
+                  <input class="header-search__input" type="text" placeholder="Поиск по сайту">
+                  <button>
+                    <svg width="21" height="21">
+                      <use xlink:href="#search"></use>
+                    </svg>
+                  </button>
+                </form>
+                <div class="header__mod-list">
+                  <button class="form-map__btn form-map__btn--header accordion">
+                    <span>Показать каталог</span>
+                    <svg width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.9008 1.12856L6.98655 7.04285L1.07227 1.12856" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </button>
+                  <div class="panel header-mod__accordion">
+                    <div class="header-search_wrapp promo-list">
+                      <div class="header-searh">
+                        <ul class="header-searh__list">
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Сейфы</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Офисная металлическая мебель</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Медицинская металлическая мебель</a>
+                          </li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Цилиндровые механизмы</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Замки для дверей</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Ручки и накладки для дверей</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Броненакладки и защитная фурнитура</a>
+                          </li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Аксессуары для дверей</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Входные двери</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Аксессуары для дверей</a></li>
+                          <li class="searh-list_item"><a class="searh-list_link" href="#">Входные двери</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom__mod">
+            <h1 class="my-order__title">Мой заказ</h1>
+            <p class="my-order__text">
+              Специализированный магазин дверей, сейфов и дверной фурнитуры в Молдове!
+            </p>
+          </div>
+        </div>
+    </div>
+</header>
+
+  <section class="order-sec">
+    <div class="container">
+      <div class="order-box">
+        <div class="top-page">
+          <div class="top-page crumbs">
+            <ul class="crumbs-list">
+              <li class="crumbs-list__item"><a href="#">Главная</a></li>
+              <li class="crumbs-list__item"><a href="#">Каталог</a></li>
+              <li class="crumbs-list__item"><span>Электронные сейфы</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="order-box__wrapper">
+          <div class="catalog-third__l">
+            <div class="card-order">
+              <div class="card-order__img">
+                <img src="img/image2.png" alt="image" class="card-order-img">
+              </div>
+
+              <div class="card-order__info">
+                <h4 class="card-order__title">
+                  Сейф офисный
+                </h4>
+                <p class="card-order__desr">
+                  Сейфы офисные нужны практически в любой организации, где есть ценная документация
+                </p>
+              </div>
+
+              <div class="card-order__counter">
+                <div class="block__count">
+                  <div class="input__minus">
+                    <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.0746222 2.076V0.276H5.43862V2.076H0.0746222Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                  <div class="input__line">
+                    <input value="1" class="input__count" type="number">
+                  </div>
+                  <div class="input__plus">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.42262 9.28V5.626H0.858622V4.042H4.42262V0.496H6.07862V4.042H9.64262V5.626H6.07862V9.28H4.42262Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-order__basket">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.57129 5.71432H4.99986M4.99986 5.71432H16.4284M4.99986 5.71432V15.7143C4.99986 16.0932 5.15037 16.4566 5.41828 16.7245C5.68619 16.9924 6.04955 17.1429 6.42843 17.1429H13.5713C13.9502 17.1429 14.3135 16.9924 14.5814 16.7245C14.8494 16.4566 14.9999 16.0932 14.9999 15.7143V5.71432H4.99986ZM7.14272 5.71432V4.28575C7.14272 3.90687 7.29323 3.54351 7.56114 3.2756C7.82905 3.00769 8.19241 2.85718 8.57129 2.85718H11.4284C11.8073 2.85718 12.1707 3.00769 12.4386 3.2756C12.7065 3.54351 12.857 3.90687 12.857 4.28575V5.71432M8.57129 9.28575V13.5715M11.4284 9.28575V13.5715" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+
+            </div>
+            <div class="card-order">
+              <div class="card-order__img">
+                <img src="img/image2.png" alt="image" class="card-order-img">
+              </div>
+
+              <div class="card-order__info">
+                <h4 class="card-order__title">
+                  Сейф офисный
+                </h4>
+                <p class="card-order__desr">
+                  Сейфы офисные нужны практически в любой организации, где есть ценная документация
+                </p>
+              </div>
+
+              <div class="card-order__counter">
+                <div class="block__count">
+                  <div class="input__minus">
+                    <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.0746222 2.076V0.276H5.43862V2.076H0.0746222Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                  <div class="input__line">
+                    <input value="1" class="input__count" type="number">
+                  </div>
+                  <div class="input__plus">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.42262 9.28V5.626H0.858622V4.042H4.42262V0.496H6.07862V4.042H9.64262V5.626H6.07862V9.28H4.42262Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-order__basket">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.57129 5.71432H4.99986M4.99986 5.71432H16.4284M4.99986 5.71432V15.7143C4.99986 16.0932 5.15037 16.4566 5.41828 16.7245C5.68619 16.9924 6.04955 17.1429 6.42843 17.1429H13.5713C13.9502 17.1429 14.3135 16.9924 14.5814 16.7245C14.8494 16.4566 14.9999 16.0932 14.9999 15.7143V5.71432H4.99986ZM7.14272 5.71432V4.28575C7.14272 3.90687 7.29323 3.54351 7.56114 3.2756C7.82905 3.00769 8.19241 2.85718 8.57129 2.85718H11.4284C11.8073 2.85718 12.1707 3.00769 12.4386 3.2756C12.7065 3.54351 12.857 3.90687 12.857 4.28575V5.71432M8.57129 9.28575V13.5715M11.4284 9.28575V13.5715" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+
+            </div>
+            <div class="card-order">
+              <div class="card-order__img">
+                <img src="img/image2.png" alt="image" class="card-order-img">
+              </div>
+
+              <div class="card-order__info">
+                <h4 class="card-order__title">
+                  Сейф офисный
+                </h4>
+                <p class="card-order__desr">
+                  Сейфы офисные нужны практически в любой организации, где есть ценная документация
+                </p>
+              </div>
+
+              <div class="card-order__counter">
+                <div class="block__count">
+                  <div class="input__minus">
+                    <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.0746222 2.076V0.276H5.43862V2.076H0.0746222Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                  <div class="input__line">
+                    <input value="1" class="input__count" type="number">
+                  </div>
+                  <div class="input__plus">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.42262 9.28V5.626H0.858622V4.042H4.42262V0.496H6.07862V4.042H9.64262V5.626H6.07862V9.28H4.42262Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-order__basket">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.57129 5.71432H4.99986M4.99986 5.71432H16.4284M4.99986 5.71432V15.7143C4.99986 16.0932 5.15037 16.4566 5.41828 16.7245C5.68619 16.9924 6.04955 17.1429 6.42843 17.1429H13.5713C13.9502 17.1429 14.3135 16.9924 14.5814 16.7245C14.8494 16.4566 14.9999 16.0932 14.9999 15.7143V5.71432H4.99986ZM7.14272 5.71432V4.28575C7.14272 3.90687 7.29323 3.54351 7.56114 3.2756C7.82905 3.00769 8.19241 2.85718 8.57129 2.85718H11.4284C11.8073 2.85718 12.1707 3.00769 12.4386 3.2756C12.7065 3.54351 12.857 3.90687 12.857 4.28575V5.71432M8.57129 9.28575V13.5715M11.4284 9.28575V13.5715" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+
+            </div>
+            <div class="card-order">
+              <div class="card-order__img">
+                <img src="img/image2.png" alt="image" class="card-order-img">
+              </div>
+
+              <div class="card-order__info">
+                <h4 class="card-order__title">
+                  Сейф офисный
+                </h4>
+                <p class="card-order__desr">
+                  Сейфы офисные нужны практически в любой организации, где есть ценная документация
+                </p>
+              </div>
+
+              <div class="card-order__counter">
+                <div class="block__count">
+                  <div class="input__minus">
+                    <svg width="6" height="3" viewBox="0 0 6 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.0746222 2.076V0.276H5.43862V2.076H0.0746222Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                  <div class="input__line">
+                    <input value="1" class="input__count" type="number">
+                  </div>
+                  <div class="input__plus">
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.42262 9.28V5.626H0.858622V4.042H4.42262V0.496H6.07862V4.042H9.64262V5.626H6.07862V9.28H4.42262Z" fill="#939393"/>
+                      </svg>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-order__basket">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.57129 5.71432H4.99986M4.99986 5.71432H16.4284M4.99986 5.71432V15.7143C4.99986 16.0932 5.15037 16.4566 5.41828 16.7245C5.68619 16.9924 6.04955 17.1429 6.42843 17.1429H13.5713C13.9502 17.1429 14.3135 16.9924 14.5814 16.7245C14.8494 16.4566 14.9999 16.0932 14.9999 15.7143V5.71432H4.99986ZM7.14272 5.71432V4.28575C7.14272 3.90687 7.29323 3.54351 7.56114 3.2756C7.82905 3.00769 8.19241 2.85718 8.57129 2.85718H11.4284C11.8073 2.85718 12.1707 3.00769 12.4386 3.2756C12.7065 3.54351 12.857 3.90687 12.857 4.28575V5.71432M8.57129 9.28575V13.5715M11.4284 9.28575V13.5715" stroke="#999999" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+
+            </div>
+            <div class="order-fast">
+              <div class="order-fast__wrapper">
+                <h3 class="maps-form__title">
+                  Быстрый заказ
+                </h3>
+                <form class="fast-form" >
+                  <input type="text" placeholder="Ваше имя">
+                  <div class="input-wrapper">
+                    <input type="tel" placeholder="Телефон">
+                    <input type="email" placeholder="E-mail">
+                  </div>
+                  <textarea name="q" id="q" cols="30" rows="10" placeholder="Комментраий"></textarea>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="catalog-third__r">
+            <div class="order-checked">
+              <h3 class="order-checked__title">
+                Мой заказ
+              </h3>
+              <ul class="order-checked__list">
+                <li><span>
+                  Товары:
+
+                </span>
+                <span>
+                  3 товара
+                </span></li>
+                <li><span>
+                  Общий вес:
+                </span>
+                <span>
+                  49 кг.
+                </span></li>
+                <li><span>
+                  Доставка:
+                </span>
+                <span>
+                  39 MDL
+                </span></li>
+                <li><span>
+                  Скидка:
+                </span>
+                <span>
+                  -239 MDL
+                </span></li>
+              </ul>
+              <div class="order-checked__price">
+                <span>
+                  Стоимость
+                </span>
+                <span>
+                  3 500 MDL
+                </span>
+              </div>
+              <div class="check__form">
+                <label class="fliter__checkbox">
+                  <input type="checkbox" value="value-1" />
+                  <span>Согласие с условиями <a href="#" class="check-link">обработки данных</a></span>
+                </label>
+              </div>
+              <button class="form-map__btn">
+                Заказать
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__l">
+          <ul class="footer__nav">
+            <li class="footer__item"><a href="#">
+                Каталог
+              </a></li>
+            <li class="footer__item"><a href="#">
+                Акции
+              </a></li>
+            <li class="footer__item"><a href="#">
+                О компании
+              </a></li>
+            <li class="footer__item"><a href="#">
+                Статьи
+              </a></li>
+            <li class="footer__item"><a href="#">
+                Гарантия
+              </a></li>
+            <li class="footer__item"><a href="#">
+                Доставка
+              </a></li>
+          </ul>
+          <p class="footer__text">
+            На протяжении четверти века мы изготовили тысячи сейфов различного назначения, тысячи дверей для различных
+            объектов: новостроев, частных домов, коммерческих и государственных учреждений, установили несчетное
+            количество замков и дверной фурнитуры.
+          </p>
+          <div class="footer-pay">
+            <p class="footer-pay__text">
+              Принимаем к оплате
+            </p>
+            <a href="#" class="footer-pay__link"><img src="img/masterCard.jpg" alt="mastercard"></a>
+            <a href="#" class="footer-pay__link"><img src="img/visa.jpg" alt="visa"></a>
+          </div>
+          <div class="footer-bottom">
+            <a href="#" class="footer-bottom__link">
+              Your Privacy
+            </a>
+            <a href="#" class="footer-bottom__link">
+              Cookie Policy
+            </a>
+            <a href="#" class="footer-bottom__link">
+              Cookie Policy
+            </a>
+          </div>
+        </div>
+        <div class="footer__r">
+          <div class="footer-r__top">
+            <h4 class="footer-r__title">
+              Контаткы
+            </h4>
+            <div class="header-top__lang">
+              <div class="accordion lang">
+                <button class="lang__btn">
+                  <svg width="22" height="22">
+                    <use xlink:href="#lang"></use>
+                  </svg>
+                  <span>Рус</span>
+                  <svg class="arrow" width="14" height="8">
+                    <use xlink:href="#arrow-down"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="panel lang-list">
+                <div class="panel__wrapp">
+                  <p>Англ</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-social">
+              <a href="#" class="footer-social__link">
+                <svg class="footer__svg" width="16" height="16">
+                  <use xlink:href="#insta"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg width="16" height="13">
+                  <use xlink:href="#twiter"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-social__link">
+                <svg width="16" height="15">
+                  <use xlink:href="#linked"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-r__info">
+            <a href="#" class="footer-r__info__link">
+              М. Кишинэу, бул. Дачия 16/2 (вход с ул. Теилор)
+            </a>
+            <a href="tel:37322766955" class="footer-r__info__link">
+              Tел: (+373) 22 766 955
+            </a>
+            <a href="tel:37369259600" class="footer-r__info__link">
+              Mоб: (+373) 69 259 600
+            </a>
+            <a href="tel:37369142552" class="footer-r__info__link">
+              Mоб: (+373) 69 142 552
+            </a>
+            <a href="#" class="footer-r__info__link">
+              info@omega.md
+            </a>
+          </div>
+          <div class="footer-r__copy">
+            <a href="#">
+              ©Copyright 2020 omega.md
+            </a>
+            <a href="#">
+              Разработка: ilab.md
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/common.min.js"></script>
+</body>
+
+</html>
